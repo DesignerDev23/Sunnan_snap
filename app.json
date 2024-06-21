@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "SunnahSnap",
+    "slug": "sunnah-snap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/img/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6a3eb2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-font"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "image": "./assets/img/splash.png",
+        "resizeMode": "contain"
+      },
+      "splash": {
+        "image": "./assets/img/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#6a3eb2"
+      },
+      "package": "com.itsbgold.SunnahSnap"
+    },
+    "web": {
+      "favicon": "./assets/img/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "983672a8-fc62-428c-a8ec-d1bfc00a09e9"
+      }
+    },
+    "owner": "designer.dev23"
+  }
+}
